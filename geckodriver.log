@@ -1,0 +1,958 @@
+1525019815361	geckodriver	INFO	geckodriver 0.19.1
+1525019815381	geckodriver	INFO	Listening on 127.0.0.1:53986
+1525019818443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.pkIBxd0KCxZk"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525019819198	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525019820320	Marionette	INFO	Listening on port 53995
+1525019820470	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8672, Chrome_ChildThread] WARNING: pipe error:[Parent 10544, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4160, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525070617678	geckodriver	INFO	geckodriver 0.19.1
+1525070617678	geckodriver	INFO	Listening on 127.0.0.1:50334
+1525070620740	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.rJoWFriy7HWL"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525070621408	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525070622538	Marionette	INFO	Listening on port 50342
+1525070622806	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+[Parent 3460, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1528, Chrome_ChildThread] WARNING: pipe err[Child 12380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_c[Parent 3460, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5352, C[GPU 10684, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525100613636	geckodriver	INFO	geckodriver 0.19.1
+1525100613652	geckodriver	INFO	Listening on 127.0.0.1:51509
+1525100616730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.sgqZ9fgAX796"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525100617254	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525100618358	Marionette	INFO	Listening on port 51517
+1525100618802	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+[Parent 1000, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/c[Child 1hrome/common0816/ip, Cc_chrome_ChildThread] WARNING: pipehan error:nel 109: file z:/build_wi/builn.cd/src/ipc/chromiuc, line 3m/src/chrome/commo46
+n/ipc_channel_win.cc, line 346
+[Child 10816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2696, Chrome_ChildThread[GPU 2760, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525105321698	geckodriver	INFO	geckodriver 0.19.1
+1525105321714	geckodriver	INFO	Listening on 127.0.0.1:52822
+1525105324746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.eNAD8gHWmwFY"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525105325332	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525105326388	Marionette	INFO	Listening on port 52830
+1525105326792	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+[Parent 13160, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13160, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14652, Chrome_ChildThread] WARNING: pipe error: 109: file[Child 14348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13160, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 34[GPU 4000, Chrome
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+hrome_ChildThread] WARN[Child 14476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15176, Chrome_ChildThread] WARNIN[GPU 1580, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ttest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+[Parent 18044, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 18044, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/b[Child 16524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16524, Chrome_ChildThread] WARNING: pipe error: 1[Parent 18044, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16556, Chrome_ChildThread] WARNING: pipe err
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525113235574	geckodriver	INFO	geckodriver 0.19.1
+1525113235590	geckodriver	INFO	Listening on 127.0.0.1:50159
+1525113238621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.gPghqjfkx1LY"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525113239114	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525113240180	Marionette	INFO	Listening on port 50167
+1525113240686	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+[Parent 11684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4900, Chrome_Chil[Child 8120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/bui[GPU 9248, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525163116599	geckodriver	INFO	geckodriver 0.19.1
+1525163116614	geckodriver	INFO	Listening on 127.0.0.1:50450
+1525163119701	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.IY5O5CNZlzxP"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525163120408	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525163121566	Marionette	INFO	Listening on port 50459
+1525163121742	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/b[Child 9080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4896, Chrome_C[GPU 44
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525163805032	geckodriver	INFO	geckodriver 0.19.1
+1525163805048	geckodriver	INFO	Listening on 127.0.0.1:50536
+1525163808157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.SFKzeOLYcGKW"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525163808618	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525163809674	Marionette	INFO	Listening on port 50544
+1525163809706	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+[Parent 1916, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line[Child 12264, Chrome_ChildThread 346
+] WARNING: pi[Chpe erroild 1128, Chrome_Cr: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1916, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2152, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2152, Chrome_C[GPU 7680
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525164110783	geckodriver	INFO	geckodriver 0.19.1
+1525164110799	geckodriver	INFO	Listening on 127.0.0.1:50705
+1525164113874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.1niBynFdCw7S"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525164114322	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525164115360	Marionette	INFO	Listening on port 50713
+1525164115452	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+[Parent 1312, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4480, Chrome_ChildThread] WARNING: pip[Child 12252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1312, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7240, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+[Child 1020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1020, Chrome_ChildThread] WARNING: pipe error: [Child 2400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11940, Chrome_ChildThread][GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+INFO	Listening on port 51122
+1525164640788	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+[Parent 4056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2532, Chrome_ChildThread] WARNING: pipe error: [Child 3784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13924, Chrome_ChildThread] WARNING: pipe error: 109: file [GPU 13004, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11688, Chrome_ChildThrea[Child 16408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_ch*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525172492808	geckodriver	INFO	geckodriver 0.19.1
+1525172492824	geckodriver	INFO	Listening on 127.0.0.1:52837
+1525172495886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.Kb6Slh52QIHY"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525172496466	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525172497522	Marionette	INFO	Listening on port 52845
+1525172497924	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+[Parent 13816, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13816, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/buil[Child 9496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9496, Chrome_ChildThread] W[Child 10740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10740, Chrome_ChildThread] WARNING:*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525174508724	geckodriver	INFO	geckodriver 0.19.1
+1525174508756	geckodriver	INFO	Listening on 127.0.0.1:53663
+1525174511788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.hMFZHawUkDRc"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525174512266	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525174513320	Marionette	INFO	Listening on port 53671
+1525174513826	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+[Child 8116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8116, Chrome_ChildThread] WARNING: pipe erro[Child 15520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_chan[Child 8232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/[GPU 7908, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+y.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525174841534	Marionette	INFO	Listening on port 54092
+1525174841984	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil[d 9708, ChroChild 16896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4332, C*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 1070
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525174887199	geckodriver::marionette	ERROR	Failed to kill browser process
+1525174948879	geckodriver	INFO	geckodriver 0.19.1
+1525174948895	geckodriver	INFO	Listening on 127.0.0.1:54129
+1525174951984	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.YS2sHs0z6xJ6"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525174952468	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525174953498	Marionette	INFO	Listening on port 54137
+1525174953522	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+[Child 16556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16556, Chrome_ChildThread] WARNING: pi[Child 17180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 171[Parent 14312, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9664, Chrome_ChildTh[GPU 11368, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525175133395	geckodriver	INFO	geckodriver 0.19.1
+1525175133426	geckodriver	INFO	Listening on 127.0.0.1:54443
+1525175136443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.2Sogeu7dmgDp"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525175136914	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525175137994	Marionette	INFO	Listening on port 54451
+1525175138496	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+[Parent 16956, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14092, Chrome_ChildThread] W[Child 13868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 12384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525179722640	geckodriver	INFO	geckodriver 0.19.1
+1525179722656	geckodriver	INFO	Listening on 127.0.0.1:55156
+1525179725719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.LHNEkEkwmxzr"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525179726184	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525179727266	Marionette	INFO	Listening on port 55164
+1525179727770	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+[Parent 3624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/[Chilsrc/chrome/common/ipd 14424, Chrome_Chc_channel_winildThread] .ccWA, line 346
+RNING: pipe error: 10[Chil9: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11124, Chrome*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 16676, Chrome_ChildThread] WARNING: pipe erro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525191532312	geckodriver	INFO	geckodriver 0.19.1
+1525191532328	geckodriver	INFO	Listening on 127.0.0.1:63290
+1525191535399	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.3KFQNpYomINt"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525191535932	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525191536958	Marionette	INFO	Listening on port 63298
+1525191537452	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9944, Chrome_ChildThread] WARNI[Child 13200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8852, Chrome_ChildThre[GPU 14504, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525274176411	geckodriver	INFO	geckodriver 0.19.1
+1525274176427	geckodriver	INFO	Listening on 127.0.0.1:50523
+1525274179505	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.otwd6BfIh7pz"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525274180152	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1525274181276	Marionette	INFO	Listening on port 50532
+1525274181550	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+[Parent 3796, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9424, Chrome_ChildThread] [Child 2836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10092, Chrome_ChildTh
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1526387533837	geckodriver	INFO	geckodriver 0.19.1
+1526387533868	geckodriver	INFO	Listening on 127.0.0.1:50578
+1526387536951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.HM2x7SR0a2Yf"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1526387537586	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1526387538716	Marionette	INFO	Listening on port 50587
+1526387539010	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+[Child 10732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10732, Chrome_ChildThread] WARNING: pipe error: 109: [Child 9992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/[Parent 12080, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11108, Chrome_ChildThread] WARNING: pipe error: 109: file[GPU 12612
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527001941515	geckodriver	INFO	geckodriver 0.19.1
+1527001941530	geckodriver	INFO	Listening on 127.0.0.1:63049
+1527001944599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson\\AppData\\Local\\Temp\\rust_mozprofile.pPuqzwGeoWyP"
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1527001945230	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson\AppData\Local\openvr\openvrpaths.vrpath
+1527001946300	Marionette	INFO	Listening on port 63058
+1527001946646	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+[Child 11288, Chrome_ChildT[Parent 7848,hread] WA GeckRNING: pipe o_IOThreaderror: 109: fi] le z:/build/build/src/iWARNING: pipe epc/chromium/src/crror: 109: filhrome/common/ipc_channee z:/build/bul_win.cc, linild/src/ipc/chromium/sre 346
+c/chrome/common/ipc_channel_win.cc, line 346
+[Child 9060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9060, Chrome_ChildThread] WARNING[Parent 7848, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7956, Chrome_ChildThread[GPU 3352, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1528737498889	geckodriver	INFO	geckodriver 0.19.1
+1528737498904	geckodriver	INFO	Listening on 127.0.0.1:56144
+1528737502028	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson.LEARNET\\AppData\\Local\\Temp\\rust_mozprofile.fGxZZFggiQVg"
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+1528737502750	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+1528737503838	Marionette	INFO	Listening on port 56153
+1528737504206	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+[Child 14180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14180, Chrome_ChildThread] WARNING[Child 15728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15728, Chrome_ChildThread] WARNING: p[Parent 12072, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10284, Chrome_ChildThread] WAR[GPU 1484
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1529182488503	geckodriver	INFO	geckodriver 0.19.1
+1529182488519	geckodriver	INFO	Listening on 127.0.0.1:53766
+1529182491643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson.LEARNET\\AppData\\Local\\Temp\\rust_mozprofile.o1kYBFpKq5jv"
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+1529182492302	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+1529182493390	Marionette	INFO	Listening on port 53775
+1529182493724	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://automattest.com:8080/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com:8080/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: http://automattest.com:8080/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 163: TypeError: Services.focus.focusedWindow is null
+[Parent 5004, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5272, Chrome_ChildThread] WAR[Child 1984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_chan[Child 2356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2356, Chrome_Chil[GPU 4952, Chrome_ChildThread] WARNING: pip
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1534076221896	geckodriver	INFO	geckodriver 0.19.1
+1534076221924	geckodriver	INFO	Listening on 127.0.0.1:58765
+1534076226361	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson.LEARNET\\AppData\\Local\\Temp\\rust_mozprofile.B0YUvb163oSA"
+1534076304999	geckodriver	INFO	geckodriver 0.19.1
+1534076305026	geckodriver	INFO	Listening on 127.0.0.1:58807
+1534076309144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson.LEARNET\\AppData\\Local\\Temp\\rust_mozprofile.vMynDTpZK4Tq"
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\tony.jansson.LEARNET\AppData\Local\openvr\openvrpaths.vrpath
+1534076310594	Marionette	INFO	Listening on port 58815
+1534076310662	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 8680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromiu[Child 2460, Cm/src/chromhre/commoome_ChildTn/hread] WAipRNc_ING: pichpe eannel_winrr.cor: 109: filc,e  linz:/bue 34ild/build/sr6
+c/ipc/c[Child 6hromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2460, Ch[Parent 8680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1537371001841	geckodriver	INFO	geckodriver 0.19.1
+1537371001863	geckodriver	INFO	Listening on 127.0.0.1:54950
+1537371004931	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson.LEARNET\\AppData\\Local\\Temp\\rust_mozprofile.CbP8i6pCnh2O"
+1537371006898	Marionette	INFO	Listening on port 54959
+1537371006975	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537371007004	Marionette	DEBUG	[6442450945] Frame script loaded
+1537371007006	Marionette	DEBUG	[6442450945] Frame script registered
+1537371007020	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537371007121	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1537371007331	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/
+1537371007410	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/
+1537371028685	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371034089	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371036414	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537371038742	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537371041107	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/scr/newCourseEvent.js, line 392: ReferenceError: eduAdmin_newCourseEvent is not defined
+1537371053702	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://automattest.com/newCourseEvent.php
+1537371053778	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://automattest.com/newCourseEvent.php
+1537371053779	Marionette	DEBUG	[6442450945] Received DOM event unload for http://automattest.com/newCourseEvent.php
+1537371053952	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/newCourseEvent.php
+1537371054004	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/newCourseEvent.php
+1537371059426	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371066557	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371068905	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537371071294	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537371073658	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/scr/newCourseEvent.js, line 392: ReferenceError: eduAdmin_newCourseEvent is not defined
+1537371086273	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://automattest.com/newCourseEvent.php
+1537371086342	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://automattest.com/newCourseEvent.php
+1537371086343	Marionette	DEBUG	[6442450945] Received DOM event unload for http://automattest.com/newCourseEvent.php
+1537371086519	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/newCourseEvent.php
+1537371086572	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/newCourseEvent.php
+1537371092001	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371100963	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371103299	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537371105688	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537371108087	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/scr/newCourseEvent.js, line 392: ReferenceError: eduAdmin_newCourseEvent is not defined
+1537371120754	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://automattest.com/newCourseEvent.php
+1537371120811	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://automattest.com/newCourseEvent.php
+1537371120812	Marionette	DEBUG	[6442450945] Received DOM event unload for http://automattest.com/newCourseEvent.php
+1537371120986	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/newCourseEvent.php
+1537371121026	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/newCourseEvent.php
+1537371126440	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371137330	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371139654	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537371142025	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537371144383	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/scr/newCourseEvent.js, line 392: ReferenceError: eduAdmin_newCourseEvent is not defined
+1537371156923	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://automattest.com/newCourseEvent.php
+1537371157007	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://automattest.com/newCourseEvent.php
+1537371157008	Marionette	DEBUG	[6442450945] Received DOM event unload for http://automattest.com/newCourseEvent.php
+1537371157169	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/newCourseEvent.php
+1537371157210	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/newCourseEvent.php
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1537371397026	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1537371397027	addons.xpi	ERROR	Failed to download system add-on fxmonitor@mozilla.org: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1537371397028	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1537371397028	addons.xpi	ERROR	Failed to download system add-on telemetry-coverage-bug1487578@mozilla.org: Error: Failed downloading via XHR, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:314:16) JS Stack trace: fail@ProductAddonChecker.jsm:314:16
+1537371397029	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons. (resource://gre/modules/addons/XPIInstall.jsm:3645:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3645:13
+[Parent 11828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16348, [ChChirome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16348, Ch[Parent 11828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15521537372421948	Marionette	INFO	Stopped listening on port 54959
+[GPU 440
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 12392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/[Chchromium/src/chroild 6964, Chrome/cmome_ChilmodThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/n/ichromium/spc_channel_win.cc, line 346rc/chrome/common/ipc_ch
+annel_win.c[Childc,  line 346
+[Child 6964, Ch[Parent 12392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10036, 1537371748071	Marionette	INFO	Stopped listening on port 56002
+[GPU 197
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1537371837818	geckodriver	INFO	geckodriver 0.19.1
+1537371837839	geckodriver	INFO	Listening on 127.0.0.1:56232
+1537371840899	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson.LEARNET\\AppData\\Local\\Temp\\rust_mozprofile.7sQZS9YYw4jF"
+1537371842376	Marionette	INFO	Listening on port 56244
+1537371842418	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537371842455	Marionette	DEBUG	[6442450945] Frame script loaded
+1537371842457	Marionette	DEBUG	[6442450945] Frame script registered
+1537371842474	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537371842523	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1537371842707	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/
+1537371842800	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/SelectContentHelper.jsm, line 85: TypeError: this.element is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371947039	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/scr/newCourseEvent.js, line 392: ReferenceError: eduAdmin_newCourseEvent is not defined
+1537371957243	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://automattest.com/newCourseEvent.php
+1537371957333	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://automattest.com/newCourseEvent.php
+1537371957334	Marionette	DEBUG	[6442450945] Received DOM event unload for http://automattest.com/newCourseEvent.php
+1537371957501	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/newCourseEvent.php
+1537371957556	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/newCourseEvent.php
+1537371965984	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371979137	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537371984483	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537371989871	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537371995250	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: resource://gre/modules/AutoCompletePopup.jsm, line 161: TypeError: Services.focus.focusedWindow is null
+JavaScript error: http://automattest.com/scr/newCourseEvent.js, line 392: ReferenceError: eduAdmin_newCourseEvent is not defined
+1537372025877	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://automattest.com/newCourseEvent.php
+1537372025929	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://automattest.com/newCourseEvent.php
+1537372025930	Marionette	DEBUG	[6442450945] Received DOM event unload for http://automattest.com/newCourseEvent.php
+1537372026098	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/newCourseEvent.php
+1537372026162	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/newCourseEvent.php
+[Parent 16308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/comm[on/Child ipc_110chan08,nel_win.cc, lin Cherome_ Ch346
+ildThread[Ch]i ld WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11008[Parent 16308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6448, 1537372054168	Marionette	INFO	Stopped listening on port 56244
+[GPU 11476, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1537431403342	geckodriver	INFO	geckodriver 0.19.1
+1537431403361	geckodriver	INFO	Listening on 127.0.0.1:49864
+1537431406420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson.LEARNET\\AppData\\Local\\Temp\\rust_mozprofile.WjNPMYyDbyYV"
+1537431408262	Marionette	INFO	Listening on port 49874
+1537431408458	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537431408488	Marionette	DEBUG	[6442450945] Frame script loaded
+1537431408490	Marionette	DEBUG	[6442450945] Frame script registered
+1537431408505	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537431408609	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1537431410908	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/
+1537431411115	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/SelectContentHelper.jsm, line 85: TypeError: this.element is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/SelectContentHelper.jsm, line 85: TypeError: this.element is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/SelectContentHelper.jsm, line 85: TypeError: this.element is null
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537431545044	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/scr/newCourseEvent.js, line 392: ReferenceError: eduAdmin_newCourseEvent is not defined
+1537431585600	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://automattest.com/newCourseEvent.php
+1537431585687	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://automattest.com/newCourseEvent.php
+1537431585688	Marionette	DEBUG	[6442450945] Received DOM event unload for http://automattest.com/newCourseEvent.php
+1537431585884	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/newCourseEvent.php
+1537431585927	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/newCourseEvent.php
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537431599321	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/newCourseEvent.php, line 1: ReferenceError: __doPostBack is not defined
+1537431630688	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537431641044	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537431651389	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript error: http://automattest.com/scr/newCourseEvent.js, line 392: ReferenceError: eduAdmin_newCourseEvent is not defined
+1537431701945	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://automattest.com/newCourseEvent.php
+1537431702008	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://automattest.com/newCourseEvent.php
+1537431702008	Marionette	DEBUG	[6442450945] Received DOM event unload for http://automattest.com/newCourseEvent.php
+1537431702183	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://automattest.com/newCourseEvent.php
+1537431702239	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://automattest.com/newCourseEvent.php
+[Parent 7076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/s[Chric/cld hro958me/comm0, Con/ipc_channelhrome_Child_wiThrean.ccd] WA, liRNIne 346NG: 
+pipe error: 1[Child 809: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9580, Chr[Parent 7076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1537431773388	Marionette	INFO	Stopped listening on port 49874
+[GPU 8904,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1537433242380	geckodriver	INFO	geckodriver 0.19.1
+1537433242400	geckodriver	INFO	Listening on 127.0.0.1:50258
+1537433245453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tony.jansson.LEARNET\\AppData\\Local\\Temp\\rust_mozprofile.BQCTjdzjPJgs"
+1537433246952	Marionette	INFO	Listening on port 50266
+1537433246975	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537433247009	Marionette	DEBUG	[6442450945] Frame script loaded
+1537433247015	Marionette	DEBUG	[6442450945] Frame script registered
+1537433247040	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1537433247374	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1537433247547	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://login001.stockholm.se/siteminderagent/forms/amedborgare.jsp?SMAUTHREASON=0&SMAGENTNAME=-SM-belzQ8n%2BVOYsQCaxnWeesjRp ... A=null&TARGET=-SM-HTTPS://komvux.stockholm.se/open24/admin/system/FormsLogin.aspx?ReturnURL=/open24/admin/system/default.aspx
+1537433247899	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://login001.stockholm.se/siteminderagent/forms/amedborgare.jsp?SMAUTHREASON=0&SMAGENTNAME=-SM-belzQ8n%2BVOYsQCaxnWeesjRp ... A=null&TARGET=-SM-HTTPS://komvux.stockholm.se/open24/admin/system/FormsLogin.aspx?ReturnURL=/open24/admin/system/default.aspx
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1537433351187	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://komvux.stockholm.se/open24/admin/eduAdmin/newCourseEvent.aspx
+1537433351755	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://komvux.stockholm.se/open24/admin/eduAdmin/newCourseEvent.aspx
+1537433351756	Marionette	DEBUG	[6442450945] Received DOM event unload for https://komvux.stockholm.se/open24/admin/eduAdmin/newCourseEvent.aspx
+1537433352377	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://komvux.stockholm.se/open24/admin/eduAdmin/newCourseEvent.aspx
+1537433352454	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://komvux.stockholm.se/open24/admin/eduAdmin/newCourseEvent.aspx
+1537433354573	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://komvux.stockholm.se/open24/admin/eduAdmin/newCourseEvent.aspx
+1537433355298	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://komvux.stockholm.se/open24/admin/eduAdmin/newCourseEvent.aspx
+1537433355299	Marionette	DEBUG	[6442450945] Received DOM event unload for https://komvux.stockholm.se/open24/admin/eduAdmin/newCourseEvent.aspx
+1537433355834	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://komvux.stockholm.se/open24/admin/eduAdmin/newCourseEvent.aspx
+1537433355914	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://komvux.stockholm.se/open24/admin/eduAdmin/newCourseEvent.aspx
+1537433358266	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433360654	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433374096	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433384622	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433395276	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433406155	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433416656	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433427449	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433437938	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433448814	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433459267	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1537433472189	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 14108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.c[Chc, line 346il
+d 4744, Ch[Child 14108, rome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4744, Ch1537434165656	Marionette	INFO	Stopped listening on port 50266
+[GPU 10816, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

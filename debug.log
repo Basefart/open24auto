@@ -1,0 +1,16 @@
+[0616/224508.726:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[0616/224508.726:ERROR:exception_snapshot_win.cc(88)] thread ID 13480 not found in process
+[0616/225032.223:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[0616/225032.223:ERROR:exception_snapshot_win.cc(88)] thread ID 9580 not found in process
+[0807/183340.050:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[0807/183340.053:ERROR:exception_snapshot_win.cc(88)] thread ID 16376 not found in process
+[0810/145033.183:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[0810/145033.185:ERROR:exception_snapshot_win.cc(88)] thread ID 14264 not found in process
+[0811/153453.160:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[0811/153453.161:ERROR:exception_snapshot_win.cc(88)] thread ID 16764 not found in process
+[0813/111729.436:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[0813/111729.439:ERROR:exception_snapshot_win.cc(88)] thread ID 3988 not found in process
+[0813/131335.818:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[0813/131335.819:ERROR:exception_snapshot_win.cc(88)] thread ID 13516 not found in process
+[0818/181558.122:ERROR:process_reader_win.cc(123)] NtOpenThread: {Åtkomst nekad} En process har begärt åtkomst till ett objekt, men har inte de rättigheter som krävs. (0xc0000022)
+[0818/181558.125:ERROR:exception_snapshot_win.cc(88)] thread ID 5388 not found in process
