@@ -31,16 +31,9 @@ class Open24Utility:
         ccabb = tree.findall('.//CourseCodeAbbr')
         return coursenames, ccabb
 
-    def __init__(self, testSite):
-        if testSite:
-            self.urls = open('testurls.txt','r')
-        else:
-            self.urls = open('urls.txt')
+    def __init__(self):
+        self.urls = open('urls.txt')
         self.urldict = eval(self.urls.read())
-
-    def opencustomersite(self, customer):
-        url = self.urldict[customer]
-        webbrowser.open(url)
 
     def buildcoursegroup(self, obj, ccabb, pace, sm, order):
         NTI = obj.textCtrlNTI.GetValue() or ''

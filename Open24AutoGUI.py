@@ -7,6 +7,7 @@
 ## PLEASE DO *NOT* EDIT THIS FILE!
 ###########################################################################
 
+import webbrowser
 import wx
 import wx.xrc
 import wx.adv
@@ -40,6 +41,7 @@ class open24Frame(wx.Frame):
         self.SetSizeHints(wx.DefaultSize, wx.DefaultSize)
         self.SetForegroundColour(wx.SystemSettings.GetColour(wx.SYS_COLOUR_BTNTEXT))
         self.SetBackgroundColour(wx.SystemSettings.GetColour(wx.SYS_COLOUR_HIGHLIGHTTEXT))
+        self.url = ''
 
         self.m_menubar1 = wx.MenuBar(0)
         self.m_menu1 = wx.Menu()
@@ -798,13 +800,14 @@ class open24Frame(wx.Frame):
         self.Bind(wx.EVT_TOOL, self.showCourseItemsPage, id=self.courseitemsTool.GetId())
         self.Bind(wx.EVT_TOOL, self.showCourseGroupPage, id=self.coursegroupTool.GetId())
         self.Bind(wx.EVT_TOOL, self.showFormFeedPage, id=self.formfeedTool.GetId())
-        self.Bind(wx.EVT_TOOL, self.openCustomerUrl, id=self.customerURL.GetId())
+        self.Bind(wx.EVT_TOOL, self.opencustomersite, id=self.customerURL.GetId())
         self.Bind(wx.EVT_TOOL, self.stopExecution, id=self.stopButton.GetId())
         self.start2Check.Bind(wx.EVT_CHECKBOX, self.enablestart2)
         self.start3Check.Bind(wx.EVT_CHECKBOX, self.enablestart3)
         self.headerChk.Bind(wx.EVT_CHECKBOX, self.enableHeaderText)
         self.startInfoChk.Bind(wx.EVT_CHECKBOX, self.enableStartInfo)
         self.studyHoursChk.Bind(wx.EVT_CHECKBOX, self.enableStudyHours)
+        self.chkTestSite.Bind(wx.EVT_CHECKBOX, self.enableTestSite)
         self.comboBoxCourseSelect.Bind(wx.EVT_COMBOBOX, self.DisplayCGExample)
         self.buttonSaveXML.Bind(wx.EVT_BUTTON, self.onsaveas)
         self.filePickerXML.Bind(wx.EVT_FILEPICKER_CHANGED, self.stackFile)
@@ -853,29 +856,48 @@ class open24Frame(wx.Frame):
         time.sleep(1)
         self.Close()
 
+    def opencustomersite(self, customer):
+        self.c = self.customerSelect.GetValue()
+        if self.c == "Välj kund":
+            dial = wx.MessageDialog(None, 'Du måste välja kund!', 'Info', wx.OK)
+            dial.ShowModal()
+            return
+        else:
+            url = self.textCtrlCURL.GetValue()
+            webbrowser.open(url)
+
     def DisplayCGExample(self, event):
         val = self.comboBoxCourseSelect.GetSelection()
         ccabb = self.ccabb[val].text
         listobj = self.coursegroupSort.GetList()
         order = listobj.GetCurrentOrder()
-        self.testSite = False
-        if self.chkTestSite.IsChecked():
-            self.testSite = True
-        util = Open24Utility(self.testSite)
+        util = Open24Utility()
         cgx = util.buildcoursegroup(self, ccabb, 'full', 1, order)
         self.textCtrlCGExample.SetValue(cgx)
 
-    def setCustomer(self, event):
-        self.testSite = False
+    def enableTestSite(self, event):
         if self.chkTestSite.IsChecked():
-            self.testSite = True
+            self.c = self.customerSelect.GetValue()
+            if self.c == "Välj kund":
+                dial = wx.MessageDialog(None, 'Du måste välja kund!', 'Info', wx.OK)
+                dial.ShowModal()
+                self.chkTestSite.SetValue(False)
+                return
+            else:
+                self.url = self.textCtrlCURL.GetValue()
+                self.textCtrlCURL.SetValue('http://automattest.com')
+        else:
+            self.textCtrlCURL.SetValue(self.url)
+
+    def setCustomer(self, event):
+        self.chkTestSite.SetValue(False)
         c = self.customerSelect.GetValue()
         if c == "Välj kund":
             self.textCtrlCURL.SetValue('')
             self.comboBoxCourseSelect.Clear()
             self.comboBoxCourseSelect.SetValue('Välj kurs')
         else:
-            ut = Open24Utility(self.testSite)
+            ut = Open24Utility()
             self.textCtrlCURL.SetValue(ut.urldict[c])
             self.coursenames, self.ccabb = Open24Utility.getcourselist(c)
             self.comboBoxCourseSelect.Clear()
@@ -886,10 +908,7 @@ class open24Frame(wx.Frame):
             self.comboBoxCourseSelect.AppendItems(courseChoices)
 
     def onsaveas(self, event):
-        self.testSite = False
-        if self.chkTestSite.IsChecked():
-            self.testSite = True
-        utili = Open24Utility(self.testSite)
+        utili = Open24Utility()
         utili.preparesave(self)
 
     def startProcess(self, event):
@@ -1017,10 +1036,7 @@ class open24Frame(wx.Frame):
             dial = wx.MessageDialog(None, 'Du måste välja kund!', 'Info', wx.OK)
             dial.ShowModal()
             return
-        self.testSite = False
-        if self.chkTestSite.IsChecked():
-            self.testSite = True
-        util = Open24Utility(self.testSite)
+        util = Open24Utility()
         util.opencustomersite(self.c)
 
     # Virtual event handlers, overide them in your derived class

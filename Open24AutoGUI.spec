@@ -14,7 +14,9 @@ added_binary_files = [
 ('C:/Drivers/WebDrivers/geckodriver.exe','.')
 ]
 a = Analysis(['Open24AutoGUI.py'],
-             pathex=['C:\\Users\\tony.jansson.LEARNET\\Desktop\\Automatisering\\Python\\Open24Auto_5'],
+             pathex=['C:\\Users\\tony.jansson.LEARNET\\Documents\\GitHub\\open24auto',
+             'C:\\Windows\\WinSxS\\amd64_microsoft-windows-m..namespace-downlevel_31bf3856ad364e35_10.0.17134.1_none_ace56707ea44b3c5',
+             'C:\\Windows\\WinSxS\\amd64_microsoft-windows-m..namespace-downlevel_31bf3856ad364e35_10.0.17134.1_none_2113a40cfedc7953'],
              binaries=added_binary_files,
              datas=added_data_files,
              hiddenimports=[],

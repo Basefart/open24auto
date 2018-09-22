@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cbf5f9d-66a1-41fd-881a-a22406674475" name="Default Changelist" comment="">
+    <list default="true" id="4cbf5f9d-66a1-41fd-881a-a22406674475" name="Default Changelist" comment="Fixed logic around chkTestSite">
+      <change afterPath="$PROJECT_DIR$/testurls.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Open24AutoGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open24AutoGUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open24AutoGUI.spec" beforeDir="false" afterPath="$PROJECT_DIR$/Open24AutoGUI.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open24Utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open24Utility.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,49 +18,54 @@
     <session id="693866634">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
           <entry key="py" value="4" />
+          <entry key="spec" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="106" />
-          <entry key="Python" value="212" />
+          <entry key="PLAIN_TEXT" value="202" />
+          <entry key="Python" value="534" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="212" />
-          <entry key="txt" value="106" />
+          <entry key="py" value="534" />
+          <entry key="spec" value="19" />
+          <entry key="txt" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="open24auto" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Open24Utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="720">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -90,8 +98,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Open24AutoGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="863" column="29" selection-start-line="863" selection-start-column="15" selection-end-line="863" selection-end-column="29" />
+            <state relative-caret-position="221">
+              <caret line="798" column="54" lean-forward="true" selection-start-line="798" selection-start-column="54" selection-end-line="798" selection-end-column="54" />
+              <folding>
+                <element signature="e#315#332#0" expanded="true" />
+                <marker date="1537651758949" expanded="true" signature="50474:50655" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,26 +118,31 @@
       <find>urls</find>
       <find>urls.txt</find>
       <find>open24util</find>
-      <find>setCustomer</find>
       <find>checked</find>
       <find>utili</find>
       <find>Open24Utility(</find>
+      <find>test</find>
+      <find>testSite</find>
+      <find>self.url</find>
+      <find>setCustomer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Basefart &lt;43472297+basefart@users.noreply.github.com&gt;Tested" />
         <option value="Basefart &lt;43472297+basefart@users.noreply.github.com&gt;" />
+        <option value="Basefart &lt;43472297+basefart@users.noreply.github.com&gt;Tested" />
         <option value="Tony Jansson &lt;tony.jansson@learnet.se&gt;" />
       </list>
     </option>
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Open24AutoGUI.spec" />
         <option value="$PROJECT_DIR$/Open24Utility.py" />
         <option value="$PROJECT_DIR$/Open24AutoGUI.py" />
       </list>
@@ -144,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,15 +168,20 @@
               <item name="open24auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="open24auto" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="open24auto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,23 +248,40 @@
       <option name="project" value="LOCAL" />
       <updated>1537626221050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Minor problems with testsite">
+      <created>1537627510654</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537627510654</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+      <todo-filter name="FIXME" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
+      <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -285,7 +323,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Has added the ability to change from production site to test site in interface" />
     <MESSAGE value="Tested pyinstaller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested pyinstaller" />
+    <MESSAGE value="Minor problems with testsite" />
+    <MESSAGE value="Fixed logic around chkTestSite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed logic around chkTestSite" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -317,10 +357,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Open24AutoGUI.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Open24Utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="720">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -329,10 +376,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Open24AutoGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="863" column="29" selection-start-line="863" selection-start-column="15" selection-end-line="863" selection-end-column="29" />
+        <state relative-caret-position="221">
+          <caret line="798" column="54" lean-forward="true" selection-start-line="798" selection-start-column="54" selection-end-line="798" selection-end-column="54" />
+          <folding>
+            <element signature="e#315#332#0" expanded="true" />
+            <marker date="1537651758949" expanded="true" signature="50474:50655" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
