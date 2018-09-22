@@ -657,18 +657,20 @@ class open24Frame(wx.Frame):
         self.browserSelect = wx.ComboBox(sbSizerFF.GetStaticBox(), wx.ID_ANY, u"Välj webbläsare!", wx.DefaultPosition, wx.Size(160, -1),
                                          browserSelectChoices, 0)
         self.browserSelect.SetFont(wx.Font(9, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString))
-        self.browserSelect.SetMinSize(wx.Size(160, -1))
-        self.browserSelect.SetMaxSize(wx.Size(160, -1))
+        self.browserSelect.SetMinSize(wx.Size(140, -1))
+        self.browserSelect.SetMaxSize(wx.Size(140, -1))
 
         gbSizerFF.Add(self.browserSelect, wx.GBPosition(0, 0), wx.GBSpan(1, 1), wx.ALL, 5)
 
-        self.filePickerXML = wx.FilePickerCtrl(sbSizerFF.GetStaticBox(), wx.ID_ANY, wx.EmptyString, u"Välj fil!", u"*.xml", wx.DefaultPosition,
-                                               wx.Size(80, -1))
-        self.filePickerXML.SetFont(wx.Font(9, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString))
-        self.filePickerXML.SetMinSize(wx.Size(80, -1))
-        self.filePickerXML.SetMaxSize(wx.Size(80, -1))
+        self.shrinkBox = wx.BoxSizer(wx.HORIZONTAL)
 
-        gbSizerFF.Add(self.filePickerXML, wx.GBPosition(0, 2), wx.GBSpan(1, 1), wx.ALL, 5)
+        self.filePickerXML = wx.FilePickerCtrl(sbSizerFF.GetStaticBox(), wx.ID_ANY, wx.EmptyString, u"Välj fil!", u"*.xml", wx.DefaultPosition,
+                                               wx.Size(60, -1))
+        self.filePickerXML.SetFont(wx.Font(9, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString))
+        self.filePickerXML.SetMinSize(wx.Size(70, -1))
+        self.filePickerXML.SetMaxSize(wx.Size(70, -1))
+
+        self.shrinkBox.Add(self.filePickerXML, 0, wx.ALL, 5)
 
         self.selectedFile = wx.TextCtrl(sbSizerFF.GetStaticBox(), wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.Size(230, -1), 0)
         self.selectedFile.SetFont(wx.Font(11, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, wx.EmptyString))
@@ -679,10 +681,17 @@ class open24Frame(wx.Frame):
 
         gbSizerFF.Add(self.selectedFile, wx.GBPosition(0, 1), wx.GBSpan(1, 1), wx.ALL, 5)
 
+        self.chkTestSite = wx.CheckBox(sbSizerFF.GetStaticBox(), wx.ID_ANY, u"Testsajt", wx.DefaultPosition, wx.DefaultSize, 0)
+        self.chkTestSite.SetFont(wx.Font(11, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, wx.EmptyString))
+
+        self.shrinkBox.Add(self.chkTestSite, 0, wx.ALL, 5)
+
         self.chkDryRun = wx.CheckBox(sbSizerFF.GetStaticBox(), wx.ID_ANY, u"Testkörning", wx.DefaultPosition, wx.DefaultSize, 0)
         self.chkDryRun.SetFont(wx.Font(11, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, wx.EmptyString))
 
-        gbSizerFF.Add(self.chkDryRun, wx.GBPosition(0, 3), wx.GBSpan(1, 1), wx.ALL, 5)
+        self.shrinkBox.Add(self.chkDryRun, 0, wx.ALL, 5)
+
+        gbSizerFF.Add(self.shrinkBox, wx.GBPosition(0, 2), wx.GBSpan(1, 1), wx.ALL, 5)
 
         self.placeholder102 = wx.StaticText(sbSizerFF.GetStaticBox(), wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0)
         self.placeholder102.Wrap(-1)
@@ -769,7 +778,7 @@ class open24Frame(wx.Frame):
         gbSizerFF.AddGrowableCol(4)
         gbSizerFF.AddGrowableRow(1)
 
-        sbSizerFF.Add(gbSizerFF, 1, wx.EXPAND, 5)
+        sbSizerFF.Add(gbSizerFF, 1, 0, 5)
 
         self.formFeedSizer.Add(sbSizerFF, 1, wx.ALIGN_CENTER | wx.ALL | wx.FIXED_MINSIZE, 5)
 
@@ -854,13 +863,16 @@ class open24Frame(wx.Frame):
         self.textCtrlCGExample.SetValue(cgx)
 
     def setCustomer(self, event):
+        self.testSite = False
+        if self.chkTestSite.IsChecked():
+            self.testSite = True
         c = self.customerSelect.GetValue()
         if c == "Välj kund":
             self.textCtrlCURL.SetValue('')
             self.comboBoxCourseSelect.Clear()
             self.comboBoxCourseSelect.SetValue('Välj kurs')
         else:
-            ut = Open24Utility()
+            ut = Open24Utility(self.testSite)
             self.textCtrlCURL.SetValue(ut.urldict[c])
             self.coursenames, self.ccabb = Open24Utility.getcourselist(c)
             self.comboBoxCourseSelect.Clear()
