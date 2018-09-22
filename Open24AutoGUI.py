@@ -858,7 +858,10 @@ class open24Frame(wx.Frame):
         ccabb = self.ccabb[val].text
         listobj = self.coursegroupSort.GetList()
         order = listobj.GetCurrentOrder()
-        util = Open24Utility()
+        self.testSite = False
+        if self.chkTestSite.IsChecked():
+            self.testSite = True
+        util = Open24Utility(self.testSite)
         cgx = util.buildcoursegroup(self, ccabb, 'full', 1, order)
         self.textCtrlCGExample.SetValue(cgx)
 
@@ -883,7 +886,10 @@ class open24Frame(wx.Frame):
             self.comboBoxCourseSelect.AppendItems(courseChoices)
 
     def onsaveas(self, event):
-        utili = Open24Utility()
+        self.testSite = False
+        if self.chkTestSite.IsChecked():
+            self.testSite = True
+        utili = Open24Utility(self.testSite)
         utili.preparesave(self)
 
     def startProcess(self, event):
@@ -1011,7 +1017,10 @@ class open24Frame(wx.Frame):
             dial = wx.MessageDialog(None, 'Du måste välja kund!', 'Info', wx.OK)
             dial.ShowModal()
             return
-        util = Open24Utility()
+        self.testSite = False
+        if self.chkTestSite.IsChecked():
+            self.testSite = True
+        util = Open24Utility(self.testSite)
         util.opencustomersite(self.c)
 
     # Virtual event handlers, overide them in your derived class
