@@ -1030,15 +1030,6 @@ class open24Frame(wx.Frame):
         else:
             self.studyHoursText.Enable(False)
 
-    def openCustomerUrl(self, event):
-        self.c = self.customerSelect.GetValue()
-        if self.c == "Välj kund":
-            dial = wx.MessageDialog(None, 'Du måste välja kund!', 'Info', wx.OK)
-            dial.ShowModal()
-            return
-        util = Open24Utility()
-        util.opencustomersite(self.c)
-
     # Virtual event handlers, overide them in your derived class
     def showCourseItemsPage(self, event):
         self.mainSizer.Hide(self.courseGroupSizer, recursive=True)
