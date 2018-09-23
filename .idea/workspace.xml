@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cbf5f9d-66a1-41fd-881a-a22406674475" name="Default Changelist" comment="This and that">
+    <list default="true" id="4cbf5f9d-66a1-41fd-881a-a22406674475" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="eaada4ec-166d-4612-9b60-1b954e32198b" name="PyinstallerBuild" comment="Build Directory for Pyinstaller">
@@ -114,6 +114,7 @@
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wxmsw30u_xrc_vc140_x64.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/xml.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/yellow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testurls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Open24Auto/testurls.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,11 +127,11 @@
     <session id="693866634">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -152,7 +153,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="305" />
+          <entry key="PLAIN_TEXT" value="314" />
           <entry key="Python" value="534" />
         </counts>
       </usages-collector>
@@ -160,7 +161,7 @@
         <counts>
           <entry key="py" value="534" />
           <entry key="spec" value="19" />
-          <entry key="txt" value="286" />
+          <entry key="txt" value="295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -208,8 +209,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Open24AutoGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="793" column="23" selection-start-line="793" selection-start-column="23" selection-end-line="793" selection-end-column="23" />
+            <state relative-caret-position="1266">
+              <caret line="807" column="48" lean-forward="true" selection-start-line="807" selection-start-column="48" selection-end-line="807" selection-end-column="48" />
               <folding>
                 <element signature="e#315#332#0" expanded="true" />
               </folding>
@@ -390,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537652779171</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Help file">
+      <created>1537704529821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537704529821</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -416,7 +424,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.19934994" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -471,7 +479,8 @@
     <MESSAGE value="Minor problems with testsite" />
     <MESSAGE value="Fixed logic around chkTestSite" />
     <MESSAGE value="This and that" />
-    <option name="LAST_COMMIT_MESSAGE" value="This and that" />
+    <MESSAGE value="Help file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Help file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -525,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Open24AutoGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="793" column="23" selection-start-line="793" selection-start-column="23" selection-end-line="793" selection-end-column="23" />
+        <state relative-caret-position="1266">
+          <caret line="807" column="48" lean-forward="true" selection-start-line="807" selection-start-column="48" selection-end-line="807" selection-end-column="48" />
           <folding>
             <element signature="e#315#332#0" expanded="true" />
           </folding>
