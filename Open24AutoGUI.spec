@@ -6,7 +6,6 @@ added_data_files = [
 ('./*.pdf','.'),
 ('./*.png','.'),
 ('./*.xml','.'),
-('./testurls.txt','.'),
 ('./urls.txt','.')
 ]
 added_binary_files = [

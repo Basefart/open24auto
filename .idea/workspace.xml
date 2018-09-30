@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbf5f9d-66a1-41fd-881a-a22406674475" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open24AutoGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open24AutoGUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open24AutoGUI.spec" beforeDir="false" afterPath="$PROJECT_DIR$/Open24AutoGUI.spec" afterDir="false" />
     </list>
     <list id="eaada4ec-166d-4612-9b60-1b954e32198b" name="PyinstallerBuild" comment="Build Directory for Pyinstaller">
       <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/Open24Auto.exe" afterDir="false" />
@@ -92,9 +95,7 @@
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/selenium/webdriver/firefox/webdriver_prefs.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/selenium/webdriver/remote/getAttribute.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/selenium/webdriver/remote/isDisplayed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/sessiondir/CONTINUE" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/stop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/testurls.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/ucrtbase.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/unicodedata.pyd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/urls.txt" afterDir="false" />
@@ -114,7 +115,7 @@
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wxmsw30u_xrc_vc140_x64.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/xml.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/Open24Auto/yellow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testurls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Open24Auto/testurls.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Open24Auto/testurls.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,15 +128,16 @@
     <session id="693866634">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.4" value="10" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="TODO" value="1" />
           <entry key="md" value="1" />
           <entry key="py" value="4" />
           <entry key="spec" value="2" />
@@ -146,22 +148,23 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="314" />
-          <entry key="Python" value="534" />
+          <entry key="PLAIN_TEXT" value="484" />
+          <entry key="Python" value="592" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="534" />
+          <entry key="TODO" value="90" />
+          <entry key="py" value="592" />
           <entry key="spec" value="19" />
-          <entry key="txt" value="295" />
+          <entry key="txt" value="375" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -175,8 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Open24Utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state>
+              <caret selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -187,10 +190,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Open24XMLCreator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="80">
+              <caret line="4" column="14" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -199,6 +200,7 @@
         <entry file="file://$PROJECT_DIR$/Open24FormFeeder.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -206,14 +208,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Open24AutoGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1266">
-              <caret line="807" column="48" lean-forward="true" selection-start-line="807" selection-start-column="48" selection-end-line="807" selection-end-column="48" />
+            <state relative-caret-position="189">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#315#332#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TODO">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -254,14 +265,16 @@
       <list>
         <option value="$PROJECT_DIR$/Open24AutoGUI.spec" />
         <option value="$PROJECT_DIR$/Open24Utility.py" />
+        <option value="$PROJECT_DIR$/Open24XMLCreator.py" />
         <option value="$PROJECT_DIR$/Open24AutoGUI.py" />
+        <option value="$PROJECT_DIR$/TODO" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="827" />
-    <option name="width" value="1100" />
-    <option name="height" value="1047" />
+    <option name="x" value="-9" />
+    <option name="width" value="1218" />
+    <option name="height" value="1309" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -301,7 +314,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/Program Files/Adobe/Adobe Photoshop CS6 (64 Bit)/Photoshop.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -398,10 +411,24 @@
       <option name="project" value="LOCAL" />
       <updated>1537704529821</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Deleted testurls.txt">
+      <created>1537718280302</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537718280302</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Removed function - openCustomerURL - not used anymore">
+      <created>1537718638289</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1537718638289</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -413,18 +440,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.105374075" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" sideWeight="0.5024233" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29886687" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.19934994" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.19934994" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -480,7 +508,9 @@
     <MESSAGE value="Fixed logic around chkTestSite" />
     <MESSAGE value="This and that" />
     <MESSAGE value="Help file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Help file" />
+    <MESSAGE value="Deleted testurls.txt" />
+    <MESSAGE value="Removed function - openCustomerURL - not used anymore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed function - openCustomerURL - not used anymore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -506,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Open24Utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state>
+          <caret selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -516,16 +546,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Open24XMLCreator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="4" column="14" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Open24FormFeeder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -534,11 +563,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Open24AutoGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1266">
-          <caret line="807" column="48" lean-forward="true" selection-start-line="807" selection-start-column="48" selection-end-line="807" selection-end-column="48" />
+        <state relative-caret-position="189">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#315#332#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

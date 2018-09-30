@@ -22,7 +22,7 @@ import threading
 
 locale.setlocale(locale.LC_ALL, '')
 locale.setlocale(locale.LC_ALL, 'swedish')
-
+## TODO Non-locking reading of xml
 ###########################################################################
 ## Class open24Frame
 ###########################################################################
@@ -693,7 +693,7 @@ class open24Frame(wx.Frame):
 
         self.shrinkBox.Add(self.chkDryRun, 0, wx.ALL, 5)
 
-        gbSizerFF.Add(self.shrinkBox, wx.GBPosition(0, 2), wx.GBSpan(1, 1), wx.ALL, 5)
+        gbSizerFF.Add(self.shrinkBox, wx.GBPosition(0, 2), wx.GBSpan(1, 2), wx.ALL, 5)
 
         self.placeholder102 = wx.StaticText(sbSizerFF.GetStaticBox(), wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, 0)
         self.placeholder102.Wrap(-1)
