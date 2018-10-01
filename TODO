@@ -1,2 +1,8 @@
 ## TODO Gör om testservern - fokusera på funktion
+## TODO Testserver - mata om när det behövs
 ## TODO Icke-låsande läsning av xml
+## TODO Kunna mata in från slutet av filen
+## TODO Avgöra fördelning av filers innehåll och antal
+## TODO Avgöra om en kursgrupp är inmatad - läsa alert
+## TODO Dela upp på två program
+## TODO Mata in kurspaket
