@@ -3,118 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4cbf5f9d-66a1-41fd-881a-a22406674475" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Open24AutoGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open24AutoGUI.py" afterDir="false" />
     </list>
-    <list id="eaada4ec-166d-4612-9b60-1b954e32198b" name="PyinstallerBuild" comment="Build Directory for Pyinstaller">
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/Open24Auto.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/Open24AutoGUI.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/out00-Analysis.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/out00-COLLECT.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/out00-EXE.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/out00-PKG.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/out00-PKG.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/out00-PYZ.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/out00-PYZ.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/warnOpen24AutoGUI.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Open24AutoGUI/xref-Open24AutoGUI.html" afterDir="false" />
-    </list>
-    <list id="d4f3a54a-867f-4dc1-a685-4b34fc784349" name="PyinstallerDistribution" comment="Pyinstaller for distribution">
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/Courses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/Courses_bo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/Courses_na.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/Courses_st.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/Help.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/MSVCP140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/Open24Auto.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/Open24Auto.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/VCRUNTIME140.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/_bz2.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/_ctypes.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/_elementtree.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/_hashlib.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/_lzma.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/_socket.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/_ssl.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/continue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/group.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/pyexpat.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/python36.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/pywintypes36.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/robot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/select.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/selenium/webdriver/firefox/webdriver.xpi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/selenium/webdriver/firefox/webdriver_prefs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/selenium/webdriver/remote/getAttribute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/selenium/webdriver/remote/isDisplayed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/stop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/ucrtbase.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/unicodedata.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/urls.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/win32wnet.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wx._adv.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wx._core.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wx._xml.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wx._xrc.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wx.siplib.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wxbase30u_net_vc140_x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wxbase30u_vc140_x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wxbase30u_xml_vc140_x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wxmsw30u_adv_vc140_x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wxmsw30u_core_vc140_x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wxmsw30u_html_vc140_x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/wxmsw30u_xrc_vc140_x64.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/xml.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Open24Auto/yellow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Open24Auto/testurls.txt" beforeDir="false" />
-    </list>
+    <list id="eaada4ec-166d-4612-9b60-1b954e32198b" name="PyinstallerBuild" comment="Build Directory for Pyinstaller" />
+    <list id="d4f3a54a-867f-4dc1-a685-4b34fc784349" name="PyinstallerDistribution" comment="Pyinstaller for distribution" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +59,27 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="-346768236">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="open24auto" />
@@ -176,11 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Open24Utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="20">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -206,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Open24AutoGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="229">
+              <caret line="42" column="90" lean-forward="true" selection-start-line="42" selection-start-column="90" selection-end-line="42" selection-end-column="90" />
               <folding>
                 <element signature="e#315#332#0" expanded="true" />
               </folding>
@@ -218,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TODO">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
@@ -264,8 +174,8 @@
         <option value="$PROJECT_DIR$/Open24AutoGUI.spec" />
         <option value="$PROJECT_DIR$/Open24Utility.py" />
         <option value="$PROJECT_DIR$/Open24XMLCreator.py" />
-        <option value="$PROJECT_DIR$/Open24AutoGUI.py" />
         <option value="$PROJECT_DIR$/TODO" />
+        <option value="$PROJECT_DIR$/Open24AutoGUI.py" />
       </list>
     </option>
   </component>
@@ -282,6 +192,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="open24auto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,21 +218,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="open24auto" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Program Files/Adobe/Adobe Photoshop CS6 (64 Bit)/Photoshop.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -452,19 +362,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.105374075" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.105374075" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" sideWeight="0.5024233" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29886687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2979415" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.19934994" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.19934994" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -550,11 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Open24Utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="20">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -575,20 +481,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Open24AutoGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#315#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TODO">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Open24AutoGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="42" column="90" lean-forward="true" selection-start-line="42" selection-start-column="90" selection-end-line="42" selection-end-column="90" />
+          <folding>
+            <element signature="e#315#332#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
