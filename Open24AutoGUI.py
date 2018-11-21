@@ -31,7 +31,7 @@ class open24Frame(wx.Frame):
 
 
     def __init__(self, parent):
-        wx.Frame.__init__(self, parent, id=wx.ID_ANY, title=u"Open24 v.5", pos=wx.DefaultPosition, size=wx.Size(800, 750),
+        wx.Frame.__init__(self, parent, id=wx.ID_ANY, title=u"Open24 v.6", pos=wx.DefaultPosition, size=wx.Size(800, 750),
                           style=wx.DEFAULT_FRAME_STYLE | wx.SYSTEM_MENU | wx.TAB_TRAVERSAL)
         if os.path.isdir('sessiondir'):
             shutil.rmtree('sessiondir')
