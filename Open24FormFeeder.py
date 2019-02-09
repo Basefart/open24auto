@@ -9,14 +9,25 @@ import os, os.path
 from xml.etree import ElementTree as ET
 import locale
 import threading
+import io
 
 class FormFeeder:
 
-    def __init__(self, file, browser, revs, dry, wait, savemode):
+    def __init__(self, parent, file, browser, revs, dry, wait, savemode):
         self.file = file
+        self.parent = parent
+        self.wfile = ''
+        file, suffix = os.path.basename(self.file).split('.')
+        dir = os.path.dirname(self.file)
+        if file[-1] == 'R':
+            self.wfile = dir + '\\' + file[:-1] + 'W.' + suffix
         self.cStarts = open(self.file, 'rb')
         self.starttree = ET.parse(self.cStarts)
         self.root = self.starttree.getroot()
+        if len(self.wfile) > 5:
+            self.cWStarts = open(self.wfile, 'rb+')
+            self.writetree = ET.parse(self.cWStarts)
+            self.wroot = self.writetree.getroot()
         self.xcount = len(self.root.findall('CourseStart'))
         self.ready = False
         if browser == 'Google Chrome':
@@ -67,7 +78,10 @@ class FormFeeder:
         self.textdict = {}
         self.fedlist = []
         i = 0
+        j = self.parent.done
         for cStart in self.root.findall('CourseStart'):
+            if self.wfile:
+                self.wtree = self.wroot.findall('CourseStart')
             exists = os.path.isfile('./sessiondir/CONTINUE')
             if exists == False:
                 dial = wx.MessageDialog(None, 'Du har valt att avbryta! Programmet kommer att avslutas.', 'Info', wx.OK)
@@ -107,11 +121,24 @@ class FormFeeder:
                 self.textDate(self.newdatedict)
                 self.textText(self.newtextdict)
                 self.csSubmit(self.dry)
+                if hasattr(self, 'wtree'):
+                    for child in self.wtree[j]:
+                        if child.tag == 'Fed':
+                            child.text = 'true'
+                            thisroot = self.writetree.getroot()
+                            thisroot.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
+                            self.writetree.write(self.wfile, encoding="utf-8", method="xml")
+                            line = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+                            with io.open(self.wfile, 'r+', encoding='utf8') as f:
+                                file_data = f.read()
+                                f.seek(0, 0)
+                                f.write(line.rstrip('\r\n') + '\n' + file_data)
                 fedcourse = self.newtextdict['txtCourseGroup']
                 open("./sessiondir/" + fedcourse, 'w')
                 if not self.dry:
                     self.fedlist.append(str(fedcourse))
-                i = i + 1
+                i += 1
+                j += 1
                 if i >= self.revs:
                     self.cStarts.close()
                     self.writeFeds()
@@ -131,7 +158,13 @@ class FormFeeder:
                 self.fednode = self.start.find('CourseGroup').text
                 if self.fednode == fed:
                     self.start.find('Fed').text = 'true'
-        self.starttree.write(self.file, encoding="utf-8", method="xml")
+                    self.root.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
+                    self.starttree.write(self.file, encoding="utf-8", method="xml")
+                    line = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+                    with io.open(self.file, 'r+', encoding='utf8') as f:
+                        file_data = f.read()
+                        f.seek(0, 0)
+                        f.write(line.rstrip('\r\n') + '\n' + file_data)
 
     #Jag har valt helt fel sätt att gå vidare när jag har samma värde.
     def chooseSelect(self, dictionary):

@@ -2,6 +2,7 @@ from xml.etree.ElementTree import Element, SubElement
 from xml.etree import ElementTree as ET
 import locale
 from xml.dom import minidom
+from lxml import etree
 import os.path
 from datetime import datetime
 from datetime import timedelta
@@ -138,6 +139,18 @@ class XmlCreator:
                     self.studyhours.text = workdictionary['studyhours']
                 self.fed = SubElement(self.coursestart, 'Fed')
                 self.fed.text = 'false'
+
+    def mergeToOne(self, files):
+        first = None
+        for filename in files:
+            data = ET.parse(filename).getroot()
+            if first is None:
+                first = data
+            else:
+                first.extend(data)
+        if first is not None:
+            parser = etree.XMLParser(remove_blank_text=True)
+            self.top = etree.XML(ET.tostring(first), parser=parser)
 
     def writetofile(self):
         self.finalxmlstring = self.prettify(self.top)

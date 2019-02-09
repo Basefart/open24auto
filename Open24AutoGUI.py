@@ -14,11 +14,13 @@ import wx.adv
 import wx.locale
 import locale
 from Open24Utility import Open24Utility
+from Open24XMLCreator import XmlCreator
 from Open24FormFeeder import FormFeeder
 import os, shutil, time
 import os.path
 from xml.etree import ElementTree as ET
 import threading
+import subprocess
 
 locale.setlocale(locale.LC_ALL, '')
 locale.setlocale(locale.LC_ALL, 'swedish')
@@ -636,10 +638,16 @@ class open24Frame(wx.Frame):
         bSizerCGExample2.Add((0, 0), 1, wx.EXPAND, 5)
 
         fgSizerCG.Add(bSizerCGExample2, 1, wx.EXPAND, 5)
+
+        self.buttonMakeOne = wx.Button(sbSizerCG.GetStaticBox(), wx.ID_ANY, u"Slå ihop filer", wx.DefaultPosition, wx.DefaultSize, 0)
+        self.buttonMakeOne.SetFont(
+            wx.Font(9, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, wx.EmptyString))
+        self.buttonMakeOne.Enable(False)
         self.buttonSaveXML = wx.Button(sbSizerCG.GetStaticBox(), wx.ID_ANY, u"Spara", wx.DefaultPosition, wx.DefaultSize, 0)
         self.buttonSaveXML.SetFont(wx.Font(9, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD, False, wx.EmptyString))
 
         sbSizerCG.Add(self.buttonSaveXML, 0, wx.ALIGN_RIGHT | wx.ALL, 5)
+        sbSizerCG.Add(self.buttonMakeOne, 0, wx.ALIGN_RIGHT | wx.ALL, 5)
 
         self.mainSizer.Add(self.courseGroupSizer, 1, wx.EXPAND, 5)
         self.mainSizer.Hide(self.courseGroupSizer, recursive=True)
@@ -815,6 +823,7 @@ class open24Frame(wx.Frame):
         self.btnStartProcess.Bind(wx.EVT_BUTTON, self.startProcess)
         self.speedSlider.Bind(wx.EVT_SCROLL, self.setSpeed)
         self.newOrCopy.Bind(wx.EVT_RADIOBOX, self.chooseButton)
+        self.buttonMakeOne.Bind(wx.EVT_BUTTON, self.fileMerge)
 
     def __del__(self):
         pass
@@ -907,7 +916,34 @@ class open24Frame(wx.Frame):
                 courseChoices.append(coursename.text)
             self.comboBoxCourseSelect.AppendItems(courseChoices)
 
+    def fileMerge(self, evt):
+        with wx.FileDialog(self, "Slå samman XML-filer", wildcard="XML-filer (*.xml)|*.xml",
+                               style=wx.FD_OPEN | wx.FD_MULTIPLE) as openDialog:
+
+            if openDialog.ShowModal() == wx.ID_CANCEL:
+                    return  # the user changed their mind
+
+            files = openDialog.GetFilenames()
+            paths = openDialog.GetPaths()
+            new_filename = files[0][:-7]
+
+        with wx.FileDialog(self, "Slå samman XML-filer", wildcard="XML-filer (*.xml)|*.xml",
+                               style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT) as saveDialog:
+
+            saveDialog.SetFilename(new_filename)
+            if saveDialog.ShowModal() == wx.ID_CANCEL:
+                return
+
+            filename = saveDialog.GetPath()
+            dictionary = {}
+            xc = XmlCreator(dictionary, filename)
+            xc.mergeToOne(paths)
+            xc.writetofile()
+        subprocess.Popen('explorer ' + os.path.dirname(filename))
+
+
     def onsaveas(self, event):
+        self.buttonMakeOne.Enable(True)
         utili = Open24Utility()
         utili.preparesave(self)
 
@@ -979,7 +1015,7 @@ class open24Frame(wx.Frame):
             self.wait = self.speedSlider.GetValue()
             self.savemode = self.newOrCopy.GetSelection()
             self.revolutionCtrl.Enable(False)
-            self.ff = FormFeeder(self.openXMLPath, self.b, self.revs, self.dry, self.wait, self.savemode)
+            self.ff = FormFeeder(self, self.openXMLPath, self.b, self.revs, self.dry, self.wait, self.savemode)
             self.ff.open24Entrypage(startURL)
         else:
             return

@@ -104,17 +104,26 @@ class Open24Utility:
                     self.startDate3str = startDate3DT.FormatDate()
                     self.startmarker3 = obj.textCtrlStartMarker3.GetValue()
                 now = wx.DateTime.Now()
-                self.file100_1 = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker1 + "_100.xml"
-                self.file50_1 = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker1 + "_50.xml"
-                self.file25_1 = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker1 + "_25.xml"
+                self.file100_1R = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker1 + "_100R.xml"
+                self.file50_1R = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker1 + "_50R.xml"
+                self.file25_1R = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker1 + "_25R.xml"
+                self.file100_1W = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker1 + "_100W.xml"
+                self.file50_1W = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker1 + "_50W.xml"
+                self.file25_1W = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker1 + "_25W.xml"
                 if self.hassecond:
-                    self.file100_2 = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker2 + "_100.xml"
-                    self.file50_2 = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker2 + "_50.xml"
-                    self.file25_2 = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker2 + "_25.xml"
+                    self.file100_2R = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker2 + "_100R.xml"
+                    self.file50_2R = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker2 + "_50R.xml"
+                    self.file25_2R = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker2 + "_25R.xml"
+                    self.file100_2W = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker2 + "_100W.xml"
+                    self.file50_2W = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker2 + "_50W.xml"
+                    self.file25_2W = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker2 + "_25W.xml"
                 if self.hasthird:
-                    self.file100_3 = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker3 + "_100.xml"
-                    self.file50_3 = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker3 + "_50.xml"
-                    self.file25_3 = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker3 + "_25.xml"
+                    self.file100_3R = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker3 + "_100R.xml"
+                    self.file50_3R = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker3 + "_50R.xml"
+                    self.file25_3R = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker3 + "_25R.xml"
+                    self.file100_3W = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker3 + "_100W.xml"
+                    self.file50_3W = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker3 + "_50W.xml"
+                    self.file25_3W = self.pathname + "\\" + self.c + '_P' + self.p + '_' + now.Format("%Y%m%d") + self.startmarker3 + "_25W.xml"
                 self.processProfile(obj)
 
     def processProfile(self, obj):
@@ -177,51 +186,78 @@ class Open24Utility:
         self.order = listobj.GetCurrentOrder()
         self._coursegroup = self.buildcoursegroup(obj, '*ccabb*', 'full', 1, self.order)
         self.di.update({'coursegroup' : self._coursegroup})
-        xc100_1 = XmlCreator(self.di, self.file100_1)
+        xc100_1 = XmlCreator(self.di, self.file100_1R)
         xc100_1.makecoursestarts(1, 100, self.customer)
         xc100_1.writetofile()
+        xc100_1W = XmlCreator(self.di, self.file100_1W)
+        xc100_1W.makecoursestarts(1, 100, self.customer)
+        xc100_1W.writetofile()
         self._coursegroup = self.buildcoursegroup(obj, '*ccabb*', 'half', 1, self.order)
         self.di.update({'coursegroup' : self._coursegroup})
-        xc50_1 = XmlCreator(self.di, self.file50_1)
+        xc50_1 = XmlCreator(self.di, self.file50_1R)
         xc50_1.makecoursestarts(1, 50, self.customer)
         xc50_1.writetofile()
+        xc50_1W = XmlCreator(self.di, self.file50_1W)
+        xc50_1W.makecoursestarts(1, 50, self.customer)
+        xc50_1W.writetofile()
         self._coursegroup = self.buildcoursegroup(obj, '*ccabb*', 'quart', 1, self.order)
         self.di.update({'coursegroup' : self._coursegroup})
-        xc25_1 = XmlCreator(self.di, self.file25_1)
+        xc25_1 = XmlCreator(self.di, self.file25_1R)
         xc25_1.makecoursestarts(1, 25, self.customer)
         xc25_1.writetofile()
+        xc25_1W = XmlCreator(self.di, self.file25_1W)
+        xc25_1W.makecoursestarts(1, 25, self.customer)
+        xc25_1W.writetofile()
         if self.hassecond:
             self._coursegroup = self.buildcoursegroup(obj, '*ccabb*', 'full', 2, self.order)
             self.di.update({'coursegroup': self._coursegroup})
-            xc100_2 = XmlCreator(self.di, self.file100_2)
+            xc100_2 = XmlCreator(self.di, self.file100_2R)
             xc100_2.makecoursestarts(2, 100, self.customer)
             xc100_2.writetofile()
+            xc100_2W = XmlCreator(self.di, self.file100_2W)
+            xc100_2W.makecoursestarts(2, 100, self.customer)
+            xc100_2W.writetofile()
             self._coursegroup = self.buildcoursegroup(obj, '*ccabb*', 'half', 2, self.order)
             self.di.update({'coursegroup': self._coursegroup})
-            xc50_2 = XmlCreator(self.di, self.file50_2)
+            xc50_2 = XmlCreator(self.di, self.file50_2R)
             xc50_2.makecoursestarts(2, 50, self.customer)
             xc50_2.writetofile()
+            xc50_2W = XmlCreator(self.di, self.file50_2W)
+            xc50_2W.makecoursestarts(2, 50, self.customer)
+            xc50_2W.writetofile()
             self._coursegroup = self.buildcoursegroup(obj, '*ccabb*', 'quart', 2, self.order)
             self.di.update({'coursegroup': self._coursegroup})
-            xc25_2 = XmlCreator(self.di, self.file25_2)
+            xc25_2 = XmlCreator(self.di, self.file25_2R)
             xc25_2.makecoursestarts(2, 25, self.customer)
             xc25_2.writetofile()
+            xc25_2W = XmlCreator(self.di, self.file25_2W)
+            xc25_2W.makecoursestarts(2, 25, self.customer)
+            xc25_2W.writetofile()
         if self.hasthird:
             self._coursegroup = self.buildcoursegroup(obj, '*ccabb*', 'full', 3, self.order)
             self.di.update({'coursegroup': self._coursegroup})
-            xc100_3 = XmlCreator(self.di, self.file100_3)
+            xc100_3 = XmlCreator(self.di, self.file100_3R)
             xc100_3.makecoursestarts(3, 100, self.customer)
             xc100_3.writetofile()
+            xc100_3W = XmlCreator(self.di, self.file100_3W)
+            xc100_3W.makecoursestarts(3, 100, self.customer)
+            xc100_3W.writetofile()
             self._coursegroup = self.buildcoursegroup(obj, '*ccabb*', 'half', 3, self.order)
             self.di.update({'coursegroup': self._coursegroup})
-            xc50_3 = XmlCreator(self.di, self.file50_3)
+            xc50_3 = XmlCreator(self.di, self.file50_3R)
             xc50_3.makecoursestarts(3, 50, self.customer)
             xc50_3.writetofile()
+            xc50_3W = XmlCreator(self.di, self.file50_3W)
+            xc50_3W.makecoursestarts(3, 50, self.customer)
+            xc50_3W.writetofile()
             self._coursegroup = self.buildcoursegroup(obj, '*ccabb*', 'quart', 3, self.order)
             self.di.update({'coursegroup': self._coursegroup})
-            xc25_3 = XmlCreator(self.di, self.file25_3)
+            xc25_3 = XmlCreator(self.di, self.file25_3R)
             xc25_3.makecoursestarts(3, 25, self.customer)
             xc25_3.writetofile()
+            xc25_3W = XmlCreator(self.di, self.file25_3W)
+            xc25_3W.makecoursestarts(3, 25, self.customer)
+            xc25_3W.writetofile()
         subprocess.Popen('explorer ' + self.pathname)
 
 
