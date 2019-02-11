@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cbf5f9d-66a1-41fd-881a-a22406674475" name="Default Changelist" comment="Mer i TODO-filen">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4cbf5f9d-66a1-41fd-881a-a22406674475" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open24AutoGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open24AutoGUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open24AutoGUI.spec" beforeDir="false" afterPath="$PROJECT_DIR$/Open24AutoGUI.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open24FormFeeder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open24FormFeeder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open24Utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open24Utility.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open24XMLCreator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Open24XMLCreator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
     </list>
     <list id="eaada4ec-166d-4612-9b60-1b954e32198b" name="PyinstallerBuild" comment="Build Directory for Pyinstaller" />
     <list id="d4f3a54a-867f-4dc1-a685-4b34fc784349" name="PyinstallerDistribution" comment="Pyinstaller for distribution" />
@@ -436,10 +429,17 @@
       <option name="project" value="LOCAL" />
       <updated>1542803423154</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Detta projekt får nu vila!">
+      <created>1549716086965</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1549716086965</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="1">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -451,9 +451,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.15173867" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49757674" visible="true" weight="0.15173867" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" sideWeight="0.5024233" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -462,9 +461,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.26002166" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -534,7 +533,8 @@
     <MESSAGE value="Removed function - openCustomerURL - not used anymore" />
     <MESSAGE value="Har skapat en todo-fil" />
     <MESSAGE value="Mer i TODO-filen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mer i TODO-filen" />
+    <MESSAGE value="Detta projekt får nu vila!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detta projekt får nu vila!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
