@@ -31,7 +31,7 @@ class FormFeeder:
         self.xcount = len(self.root.findall('CourseStart'))
         self.ready = False
         if browser == 'Google Chrome':
-            self.driver = webdriver.Chrome()
+            self.driver = webdriver.Chrome(service_args=["--log-path=chrome.log"])
         elif browser == 'Mozilla Firefox':
             self.driver = webdriver.Firefox()
         self.revs = revs
