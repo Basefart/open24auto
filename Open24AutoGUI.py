@@ -925,12 +925,24 @@ class open24Frame(wx.Frame):
 
             files = openDialog.GetFilenames()
             paths = openDialog.GetPaths()
-            new_filename = files[0][:-7]
+            new_filename = '_BUNT_' + files[0][:-7]
 
         with wx.FileDialog(self, "Slå samman XML-filer", wildcard="XML-filer (*.xml)|*.xml",
                                style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT) as saveDialog:
 
-            saveDialog.SetFilename(new_filename)
+            saveDialog.SetFilename(new_filename + 'R')
+            if saveDialog.ShowModal() == wx.ID_CANCEL:
+                return
+
+            filename = saveDialog.GetPath()
+            dictionary = {}
+            xc = XmlCreator(dictionary, filename)
+            xc.mergeToOne(paths)
+            xc.writetofile()
+        with wx.FileDialog(self, "Slå samman XML-filer", wildcard="XML-filer (*.xml)|*.xml",
+                               style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT) as saveDialog:
+
+            saveDialog.SetFilename(new_filename + 'W')
             if saveDialog.ShowModal() == wx.ID_CANCEL:
                 return
 
